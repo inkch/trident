@@ -11,7 +11,7 @@ Based on [pure](https://github.com/rafaelrinaldi/pure)
 ### [Fisherman](http://fisherman.sh)
 
 ```fish
-$ fisher inokuc/trident
+$ fisher inkch/trident
 ```
 
 ## Features
