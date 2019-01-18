@@ -7,15 +7,15 @@ function __format_time -d "Format milliseconds to a human readable format"
   set -l time
   set -l threshold $argv[2]
 
-  if test $days -gt 0
+  if test $days -gt 1
     set time (command printf "$time%sd " $days)
   end
 
-  if test $hours -gt 0
+  if test $hours -gt 1
     set time (command printf "$time%sh " $hours)
   end
 
-  if test $minutes -gt 0
+  if test $minutes -gt 1
     set time (command printf "$time%sm " $minutes)
   end
 
